@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.page__container {
+    display: flex;
+    flex-direction: row;
+}
+.page__header {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.header {
+    display: flex;
+
+}
+.header__title {
+    color: #fff;
+    margin-right: 1130px;
+}
+.user-avatar {
+    width: 50px;
+    height: 50px;
+}
+.main {
+    margin-top: 40px;
+}
+.main__container {
+    display: flex;
+}
+.main__aside {
+    margin-left: 30px;
+}
+.userdata {
+    margin-left: 30px;
+}
+.admin-button {
+    margin-right: 30px;
+}
+.exit {
+    margin-left: 30px;
+    width: 100px;
+    height: 50px;
+}

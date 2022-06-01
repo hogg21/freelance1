@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.form {
+    display: flex;
+}
+.form__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.email {
+    margin-bottom: 12px;
+}
+.password {
+    margin-bottom: 12px;
+}

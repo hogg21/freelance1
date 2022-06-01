@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.page {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.page__container {
+    display: flex;
+    flex-direction: row;
+}
+.page__header {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.header {
+    display: flex;
+
+}
+.header__title {
+    color: #fff;
+    margin-right: 1130px;
+}
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
